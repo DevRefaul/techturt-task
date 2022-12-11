@@ -14,7 +14,7 @@ const ArticleCard = () => {
           </h5>
           {/* date */}
           <p className="mb-3 font-medium text-red-500 dark:text-gray-400">
-            Published By TechTurt official on 12/7/2022
+            Published By TECKTURT official on 12/7/2022
           </p>
           {/* content */}
           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">

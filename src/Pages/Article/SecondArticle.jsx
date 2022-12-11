@@ -11,7 +11,7 @@ const SecondArticle = () => {
       </h2>
       {/* posted date */}
       <p className="mb-3 font-medium text-red-500 dark:text-gray-400">
-        Published By TechTurt official on 12/8/2022
+        Published By TECKTURT official on 12/8/2022
       </p>
       {/* posted date */}
 

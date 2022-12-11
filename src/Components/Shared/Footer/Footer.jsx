@@ -5,23 +5,27 @@ import { MdHome, MdMarkEmailUnread } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <div className=" dark:bg-gray-900 bg-slate-100 border-t">
+    <div className=" dark:bg-gray-900 bg-gray-500 border-t text-white">
       <footer className="p-4 sm:p-6 w-[90%] md:w-[80%] mx-auto">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
-            <Link href="https://flowbite.com/" className="flex items-center">
+            <Link
+              href="https://flowbite.com/"
+              className="flex items-center mb-3"
+            >
               <img src={logo} className="mr-3 h-8" alt="FlowBite Logo" />
             </Link>
+            <p>An ultimate platform for exploring technology.</p>
           </div>
 
           {/* navigations */}
           {/* quick links start */}
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
-              <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+              <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">
                 Quick Links
               </h2>
-              <ul className="text-gray-600 dark:text-gray-400">
+              <ul className="text-white dark:text-gray-400">
                 <li className="mb-2">
                   <Link to="/" className="hover:underline">
                     Home
@@ -43,10 +47,10 @@ const Footer = () => {
 
             {/* follow section */}
             <div>
-              <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+              <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">
                 Follow us
               </h2>
-              <ul className="text-gray-600 dark:text-gray-400">
+              <ul className="text-white dark:text-gray-400">
                 <li className="mb-4">
                   <a
                     href="https://www.linkedin.com/in/yash-mathur-b348a01a5/"
@@ -63,10 +67,10 @@ const Footer = () => {
 
             {/* contact start */}
             <div>
-              <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+              <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">
                 Contact
               </h2>
-              <ul className="text-gray-600 dark:text-gray-400">
+              <ul className="text-white dark:text-gray-400">
                 <li className="mb-4">
                   {" "}
                   <MdHome className="inline-block text-[20px]" /> Bengaluru,
