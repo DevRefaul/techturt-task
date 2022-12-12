@@ -6,7 +6,11 @@ const ArticleCard = () => {
   return (
     <>
       <div className="grid grid-cols-1 lg:grid-cols-[2fr,3fr] xl:grid-cols-[1fr,2fr] my-4 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 p-2 items-center gap-6">
-        <img className="rounded h-56 mx-auto xl:mx-0" src={pythonImg} alt="" />
+        <img
+          className="rounded h-56 mx-auto xl:mx-0 object-cover"
+          src={pythonImg}
+          alt=""
+        />
 
         <div className="p-2">
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
